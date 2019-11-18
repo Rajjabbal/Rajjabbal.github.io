@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700');
+
+/*-----colors-----*/
+
+.bg-color-question {
+    background-color: #FFC300;
+
+}
+
+.ui-menu-color-home {
+    background-color: RGB(88, 24, 69);
+}
+
+.ui-menu-color-dental {
+    background-color: RGB(144, 12, 63);
+}
+
+.ui-menu-color-periodontal {
+    background-color: RGB(199, 0, 57);
+}
+
+.ui-menu-color-other {
+    background-color: RGB(255, 87, 51);
+}
+
+.ui-menu-color-contact {
+    background-color: RGB(23, 32, 42);
+}
+
+.bg-color-dental {
+    background-color: #e60000;
+}
+.bg-color-periodontal {
+    background-color: #cc0000;
+}
+.bg-color-other {
+    background-color: #b30000;
+}
+
+/*-----Special paddings/margins/text-----*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+
+}
+
+.general-sub {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    padding-left: 140px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*-----heading-----*/
+
+header {
+    margin: 0px;
+}
+
+
+.list-inline-item {
+    max-height: 80px;
+    padding-top: 20px;
+
+
+}
+
+.menucontainer {
+    font-size: 0;
+
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    font-family: "Roboto Slab", sans-serif;
+    color: #DAF7A6;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menuitem {
+    height: 80px;
+    text-align: center;
+
+    
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.menuitem a i {
+    padding-top: 20px;
+    display: block;
+    color: #fafafa;
+
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+
+}
+
+
+
+.logo {
+    background: url("../images/CEP-Logo DENTAL.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    min-height: 400px;
+    padding: 0px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.picture {
+    background: url("../images/BK.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 240px;
+    transition: all .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+}
+
+.question {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*-----hover.css-----*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 1);
+    height: 80px;
+    padding: 0px;
+}
+
+/*-----section-----*/
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.blurb {
+    background-color: #4d0000;
+    min-height: 200px;
+    padding: 20px;
+    color: #ff8080;
+
+}
+
+.section-column {
+    text-align: center
+}
+
+.form {
+    padding: 50px;
+}
+
+.query-box {
+    background-color: RGB(255, 87, 51);
+}
+
+#textboxid
+{
+    height:200px;
+    width: 800px;
+
+}
+
+/*-----footer-----*/
+
+footer {
+    padding: 20px;
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 180px;
+    margin: 0;
+}
+
+.cephtactics {
+    padding-left: 20px;
+}
+    
+.inline-block {
+    padding: 20px;
+    color: #fafafa;
+}
+
+.download {
+    padding: 20px;
+    color: #ff8080;
+}
+
+.download-pic {
+    padding-left: 150px;
+}
+
+.social-links {
+    padding-top: 0px;
+    padding-left: 80px;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
